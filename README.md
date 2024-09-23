@@ -14,6 +14,7 @@
 - [Aug. 2024 (1)](https://devwhy.tistory.com/entry/CKA-2023-CKACertified-Kubernetes-Administrator-%ED%95%A9%EA%B2%A9-%ED%9B%84%EA%B8%B0)
 ### Past Exams
 - [2024](https://m.blog.naver.com/kimchiudong/223343046891)
+- [Jun. 2024](https://hitherex.tistory.com/25)
 ### Topics
 - ingress
 - network policy
