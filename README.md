@@ -5,6 +5,7 @@
 - [Essential](https://webheck.tistory.com/entry/cka-%ED%95%84%EC%88%98%EB%AC%B8%EC%A0%9C-%EC%A0%95%EB%A6%AC-1)
 - [CKA pass guide](https://younsl.github.io/blog/k8s/cka-pass-guide/)
 ### Pass story
+- [Peter tistory](https://peterica.tistory.com/348)
 - [Nov. 2023](https://velog.io/@gwangjogong/Certified-Kubernetes-Administrator-CKA-%ED%95%A9%EA%B2%A9-%ED%9B%84%EA%B8%B0)
 - [Jan. 2024](https://pickwon.tistory.com/177)
 - [Apr. 2024](https://nayoungs.tistory.com/entry/CKACertified-Kubernetes-Administrator-%ED%95%A9%EA%B2%A9-%EB%B0%8F-%EC%8B%9C%ED%97%98-%ED%9B%84%EA%B8%B0)
