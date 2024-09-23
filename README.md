@@ -22,3 +22,4 @@
 - etcd backup
 - cluster upgrade
 - DNS resolution
+- [Assign Pods to Nodes](https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/)
