@@ -14,6 +14,7 @@
 ### Pass story
 - [Peter tistory](https://peterica.tistory.com/348)
 - [Nov. 2023](https://velog.io/@gwangjogong/Certified-Kubernetes-Administrator-CKA-%ED%95%A9%EA%B2%A9-%ED%9B%84%EA%B8%B0)
+- [Dec, 2023](https://medium.com/imweb-tech/cka-쿠버네티스-자격증-취득-후기-e68f945ae77c)
 - [Jan. 2024](https://pickwon.tistory.com/177)
 - [Feb. 2024](https://velog.io/@mmodestaa/CKA-Certified-Kubernetes-Administrator-%EC%9E%90%EA%B2%A9%EC%A6%9D-%ED%95%A9%EA%B2%A9-%ED%9B%84%EA%B8%B0)
 - [Apr. 2024](https://nayoungs.tistory.com/entry/CKACertified-Kubernetes-Administrator-%ED%95%A9%EA%B2%A9-%EB%B0%8F-%EC%8B%9C%ED%97%98-%ED%9B%84%EA%B8%B0)
