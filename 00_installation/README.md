@@ -12,6 +12,12 @@ sudo apt-get install helm
 curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/
 ```
 
+- argocd
+``` bash
+kubectl create namespace argocd
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+```
+
 - kubeseal
 ``` bash
 # Fetch the latest sealed-secrets version using GitHub API
@@ -31,10 +37,4 @@ helm chart
 ``` bash
 helm repo add sealed-secrets https://bitnami-labs.github.io/sealed-secrets
 helm install sealed-secrets -n kube-system --set-string fullnameOverride=sealed-secrets-controller sealed-secrets/sealed-secrets
-```
-
-- argocd
-``` bash
-kubectl create namespace argocd
-kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
