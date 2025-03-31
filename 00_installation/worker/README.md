@@ -1,8 +1,6 @@
 ## Install nvidia, cuda and container toolkit
 ### nvidia
-```bash
-(writing)
-```
+- [reference](https://developer.nvidia.com/cuda-12-6-0-download-archive)
 ### cuda
 ```bash
 # set env variables
