@@ -26,7 +26,7 @@ sudo systemctl restart containerd
 ### test(optional)
 ```bash
 sudo ctr image pull docker.io/nvidia/cuda:12.6.0-base-ubuntu22.04
-sudo ctr run --rm --gpus 1 --runtime=nvidia docker.io/nvidia/cuda:12.6.0-base-ubuntu22.04 test nvidia-smi
+sudo ctr run --rm --gpus 0 docker.io/nvidia/cuda:12.6.0-base-ubuntu22.04 test nvidia-smi
 ```
 
 ## Prepare system
