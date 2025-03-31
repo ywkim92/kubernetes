@@ -20,7 +20,9 @@ sudo apt update
 sudo apt install -y nvidia-container-toolkit
 
 # after containerd installed
-sudo nvidia-ctk runtime configure --runtime=docker --set-as-default
+sudo nvidia-ctk runtime configure --runtime=containerd --set-as-default
+sudo vi /etc/containerd/config.toml
+## [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.nvidia.options]: SystemCgroup = true
 sudo systemctl restart containerd
 ```
 ### test(optional)
