@@ -28,7 +28,7 @@ export NVIDIA_CONTAINER_TOOLKIT_VERSION=1.17.8-1
 # after containerd installed
 sudo nvidia-ctk runtime configure --runtime=containerd --set-as-default
 sudo vi /etc/containerd/config.toml
-## [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.nvidia.options]: SystemCgroup = true
+## [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.nvidia.options]: SystemdCgroup = true
 sudo systemctl restart containerd
 ```
 ### test(optional)
