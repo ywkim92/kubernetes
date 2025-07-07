@@ -55,14 +55,16 @@ sudo sysctl --system
 
 ### Install containerd
 ```bash
-  sudo apt install -y containerd
+sudo apt install -y containerd
 
-  sudo mkdir -p /etc/containerd
-  sudo containerd config default | sudo tee /etc/containerd/config.toml
+sudo mkdir -p /etc/containerd
+sudo containerd config default | sudo tee /etc/containerd/config.toml
+vi /etc/containerd/config.toml
+# [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options]
+#    SystemdCgroup = true
 
-  sudo systemctl restart containerd
-  sudo systemctl enable containerd
-
+sudo systemctl restart containerd
+sudo systemctl enable containerd
 ```
 
 ### Install Kubernetes Components (v1.32)
