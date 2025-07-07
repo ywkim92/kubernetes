@@ -94,7 +94,8 @@ kubectl get nodes -o jsonpath='{.items[*].status.allocatable}'
 
 kubectl describe node <worker-node-name> | grep -i gpu
 
-kubectl run gpu-test --rm -it --restart=Never --image=nvidia/cuda:12.6-base --limits=nvidia.com/gpu=1 -- nvidia-smi
+kubectl run gpu-test --restart=Never --image=nvidia/cuda:12.6-base-ubuntu22.04 --dry-run=client -oyaml -- sleep 4800 | kubectl set resources -f - --local --limits=nvidia.com/gpu=1 -oyaml | kubectl apply -f -
+kubectl exec -it gpu-test -- nvidia-smi
 ```
 
 ## Ports
