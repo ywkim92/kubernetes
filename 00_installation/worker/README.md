@@ -99,7 +99,6 @@ kubectl exec -it gpu-test -- nvidia-smi
 ```
 
 ## Ports
-- 6443
 - 10250
 - 30000-32767
 - 443
