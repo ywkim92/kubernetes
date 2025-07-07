@@ -88,3 +88,9 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 # install flannel
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
+
+### Ports
+- 6443: api server
+- 10250: kubelet
+- 2379-2381: etcd
+- udp:8472: flannel VXLAN traffic
